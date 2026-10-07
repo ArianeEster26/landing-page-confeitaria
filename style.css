@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Libre+Caslon+Condensed:wght@400..700&family=PT+Serif+Caption:ital@0;1&display=swap')
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	background-color: #faedd9;
+	color: #248f8d;
+}
+
+html{
+	font-family: inter, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+
+}
+
+nav{
+	max-width: 1120px;
+	margin: auto;
+	padding: 24px 160px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between ;
+	align-items: center;
+}
+
+.logo{
+	font-family: Libre Caslon Condensed;
+	font-size: 32px;
+	font-weight: 400;
+	color: #2b4c7e;
+	text-transform: uppercase;
+}
+
+.menu{
+	display: flex;
+	gap: 24px;
+	flex-direction: row;
+	color: #248f8d;
+}
+.github{
+	color:#248f8d;
+	font-weight: 600;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+}
+.hero{ /* seção principal*/
+	background: #c1ddc7;
+	color: #3f3557;
+	max-width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 96px;
+}
+
+.heroconteudo{
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+
+}
+
+.heroimagens{
+	max-width: 55%;
+	column-count: 3;
+
+}
+
+.heroimagens > figure > img{
+	width: 100%;
+	border-radius: 8px;
+}
+
+.receitas{
+	background: #320000;
+	display: flex;
+	flex-direction: column;
+	max-width: 1120;
+	padding: 48px 32px;
+	margin: auto;
+	color: whitesmoke;
+	border-radius: 12px;
+}
+
+.receitas-cabecalho{
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.receitas-titulo{
+	font-family: sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	
+}
+
+.receitasubtitulo{
+	font-family: Libre Caslon Condensed;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.receitascardcontainer{
+	padding: 0px 160px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+
+.receitascard{
+	color: whitesmoke;
+	padding: 32px;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	flex-basis: 29px;
+}
+
+.receitascardcabecalho{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: end;
+
+}
+
+.amarelo{
+	color: yellow;
+}
+
+.r-cabecalho-detalhes{
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.receita-titulo{
+	color: whitesmoke;
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.receitaavaliacao{
+	color: gray;
+	font-family: inter;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 30px 15px;
+}
+
+.receita-desc{
+	color: whitesmoke;
+	flex-direction: row;
+	align-items: center;
+	gap: 8px;
+
+}
+
+footer{
+	padding: 64px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
